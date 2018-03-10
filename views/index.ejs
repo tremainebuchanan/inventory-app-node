@@ -2,5 +2,9 @@
 
   <h1><%-title %></h1>
   <p>Welcome to <%-title %></p>
+  <form action="/items/file" enctype="multipart/form-data" method="POST">
+    <input type="file" name="img">
+    <input type="submit" value="upload">
+  </form>
 
 <% include footer %>

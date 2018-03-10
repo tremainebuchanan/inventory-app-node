@@ -5,3 +5,5 @@ public/components
 .vscode
 .editorconfig
 .env
+public/img
+tmp
